@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css"
+    rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Marketplace</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Marketplace</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          </header>    
+
+    <div class="contenedor">
+        <img src="http://i.mlcdn.com.br/640x480/208270400a.jpg" alt="netbook" style="height: 150px; width: 200px;">
+        <h1>Notebook Lenovo </h1>
+        <div class="detalle">
+            <h3>valor: $80.000</h3>
+            <p>Lorem ipsum dolor sit amet  corrupti possimus. Nulla quidem dignissimos! Consequatur incidunt possimus accusantium, labore non ratione</p>
+            <ul>
+                <li>Procesador: AMD 3020e (2C / 2T, 1,2 / 2,6 GHz, 1 MB L2 / 4 MB</li>
+                <li>Gráficos: Gráficos AMD Radeon ™ integrados</li>
+                <li>Memoria: DDR4-2400 soldada de 4GB</li>
+                <li>Cámara: 0.3MP</li>
+                <li>Monitor: 14 "HD (1366 x 768) TN 220 nits Antirreflejo</li>
+                <li>Sistema Operativo: Windows® 10 Home 64, español</li>
+            </ul>
+            <h3>Fabricante<a href="https://www.lenovo.com/ar/es?Redirect=False"> LENOVO</a></h3>
+            <h3>puntuacion: 5 </h3>
+        </div>
+    </div>
+
+
+
+    <div>
+        <h2>Comentarios:</h2>
+        <p>usuario 1: Dicen que la vida está llena de restricciones. Que no se puede tener un gran rendimiento y una batería que dure mucho en el mismo portátil. </p>
+        <p>usuario 2: Bueno, resulta que el portátil IdeaPad 3 de 6.ª generación (14", AMD) demuestra que se equivocan. Ya puedes disfrutar de un rendimiento para videojuegos de élite en un dispositivo fino y ligero con una duración de la batería increíble gracias a los nuevos procesadores móviles AMD Ryzen™ 5000 H-Series.</p>
+        <p>usuario 3: Que un portátil enfocado al gran rendimiento debe ser grande y pesado.  No vuelvas a aceptar restricciones en tu portátil.</p>
+    </div>
+    <label >Dejanos una puntuacion:</label>
+    <select name="puntuacion">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <div>
+        <h3>Nos gustaria conocer tu opinion!</h3>
+        <label > Nombre:
+            <input type="text" placeholder="escribe aqui..." name="nombre">
+        </label>
+        <label> Email:
+            <input type="text" placeholder="escribe aqui...">
+        </label>
+        <label> Deja tu comentario:
+            <input type="text" placeholder="escribe aqui...">
+        </label>
+        <button type="submit">Enviar</button>
+
+    </div>
+
+
+
+</body>
+</html> 
